@@ -79,7 +79,8 @@
     font-size: var(--md);
     padding: 6px;
     margin-bottom: 12px;
-  }
+    width: 300px;
+}
   .input-email,
   .input-username,
   .input-date {
@@ -118,4 +119,21 @@
 .buttons{
     display: flex;
     ;
+}
+
+.input-group-password{
+  position: relative;
+}
+.icon{
+  position: absolute;
+  height: 30px;
+  top: 6px;
+  left: 87%;
+  transform: -50%;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.icon :hover{
+  opacity: 0.8;
 }
